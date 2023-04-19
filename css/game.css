@@ -23,21 +23,19 @@
     position: absolute;
     border: 2px solid rgba(15, 116, 196, 1);
     border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;      
+    background-color: rgba(15, 116, 196, 1);
 }
 
 .front{
-    background: url('../images/grimmjow.png');
-    background-color: rgba(15, 116, 196, 1);
-    background-size: cover;
-    background-position: center;
     transform: rotateY(180deg);
 }
 
 .back{
-    background: url('../images/Bleachanime.png');
+    background-image: url('../images/bleach.png');
     backface-visibility: hidden; /* escoder a parte de tras do elemento */
-    background-size: cover;
-    background-position: center;
 }
 
 .card:hover{
