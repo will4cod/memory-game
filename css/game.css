@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     background-position: center;      
     background-color: rgba(15, 116, 196, 1);
+    transition:  all 400ms ease;
 }
 
 .front{
@@ -38,6 +39,11 @@
     backface-visibility: hidden; /* escoder a parte de tras do elemento */
 }
 
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
+}
+
+.disabled-card{
+    filter: saturate(0);
+    opacity: 0.5;
 }
